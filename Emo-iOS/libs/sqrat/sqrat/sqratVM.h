@@ -26,8 +26,8 @@
 #if !defined(_SCRAT_VM_H_)
 #define _SCRAT_VM_H_
 
-#include "sqrat.h"
 #include <squirrel.h>
+#include <sqrat.h>
 #include <map>
 
 #include <iostream>
