@@ -978,6 +978,13 @@
 				GCC_PREFIX_HEADER = Emo_iOS_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					libs,
+					libs/libpng,
+					libs/emo,
+					libs/squirrel/include,
+					libs/sqrat,
+				);
 				INFOPLIST_FILE = "Emo_iOS-Info.plist";
 				PRODUCT_NAME = "Emo-iOS";
 			};
@@ -992,6 +999,13 @@
 				GCC_PREFIX_HEADER = Emo_iOS_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					libs,
+					libs/libpng,
+					libs/emo,
+					libs/squirrel/include,
+					libs/sqrat,
+				);
 				INFOPLIST_FILE = "Emo_iOS-Info.plist";
 				PRODUCT_NAME = "Emo-iOS";
 				VALIDATE_PRODUCT = YES;
