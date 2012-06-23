@@ -95,6 +95,13 @@ copy_project_templates(){
 
 	copy_files Emo-iOS/libs/squirrel "$LIBS_DIR"
 
+	echo ...copying sqrat files
+
+	DST_DIR="$TEMPLATE_DIR"libsqrat.xctemplate/
+	LIBS_DIR="$DST_DIR"libs
+
+	copy_files Emo-iOS/libs/sqrat "$LIBS_DIR"
+
 	echo ...copying libpng files
 
 	DST_DIR="$TEMPLATE_DIR"libpng.xctemplate/

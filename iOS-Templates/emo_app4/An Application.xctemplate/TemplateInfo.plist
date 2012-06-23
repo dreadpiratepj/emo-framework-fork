@@ -8,6 +8,7 @@
 		<string>com.emo_framework.libbox2d</string>
 		<string>com.emo_framework.libpng</string>
 		<string>com.emo_framework.libsquirrel</string>
+		<string>com.emo_framework.libsqrat</string>
 		<string>com.emo_framework.libemo</string>
 	</array>
 	<key>Concrete</key>
@@ -31,6 +32,26 @@
 			</array>
 			<key>Path</key>
 			<string>Classes/AppDelegate.h</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/MySqratBindings.mm</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/MySqratBindings.mm</string>
+		</dict>
+		<key>Classes/MySqratBindings.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/MySqratBindings.h</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
@@ -114,6 +135,8 @@
 		<string>main.m</string>
 		<string>Classes/AppDelegate.h</string>
 		<string>Classes/AppDelegate.m</string>
+		<string>Classes/MySqratBindings.h</string>
+		<string>Classes/MySqratBindings.mm</string>
 		<string>Resources/graphics/Icon.png</string>
 		<string>Resources/sounds/PLACE_YOUR_WAVE_HERE</string>
 		<string>Resources/main.nut</string>
@@ -128,7 +151,7 @@
 				<key>OTHER_LDFLAGS</key>
 				<string>-ObjC -all_load -lz -lsqlite3</string>
 				<key>HEADER_SEARCH_PATHS</key>
-				<string>$(BUILT_PRODUCTS_DIR)/usr/local/include ___PACKAGENAME___/Classes ___PACKAGENAME___/libs ___PACKAGENAME___/libs/libpng ___PACKAGENAME___/libs/emo ___PACKAGENAME___/libs/squirrel/include</string>
+				<string>$(BUILT_PRODUCTS_DIR)/usr/local/include ___PACKAGENAME___/Classes ___PACKAGENAME___/libs ___PACKAGENAME___/libs/libpng ___PACKAGENAME___/libs/emo ___PACKAGENAME___/libs/squirrel/include ___PACKAGENAME___/libs/sqrat</string>
 				<key>IPHONE_OPTIMIZE_OPTIONS</key>
 				<string>-skip-PNGs</string>
 				<key>COMPRESS_PNG_FILES</key>
