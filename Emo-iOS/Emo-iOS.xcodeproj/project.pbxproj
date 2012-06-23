@@ -132,6 +132,24 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Emo_iOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emo_iOS_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Emo_iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Emo_iOS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9DA35EAA1595268100F56951 /* sqratAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratAllocator.h; sourceTree = "<group>"; };
+		9DA35EAB1595268100F56951 /* sqratArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratArray.h; sourceTree = "<group>"; };
+		9DA35EAC1595268100F56951 /* sqratClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratClass.h; sourceTree = "<group>"; };
+		9DA35EAD1595268100F56951 /* sqratClassType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratClassType.h; sourceTree = "<group>"; };
+		9DA35EAE1595268100F56951 /* sqratConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratConst.h; sourceTree = "<group>"; };
+		9DA35EAF1595268100F56951 /* sqratFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratFunction.h; sourceTree = "<group>"; };
+		9DA35EB01595268100F56951 /* sqratGlobalMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratGlobalMethods.h; sourceTree = "<group>"; };
+		9DA35EB11595268100F56951 /* sqratMemberMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratMemberMethods.h; sourceTree = "<group>"; };
+		9DA35EB21595268100F56951 /* sqratObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratObject.h; sourceTree = "<group>"; };
+		9DA35EB31595268100F56951 /* sqratOverloadMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratOverloadMethods.h; sourceTree = "<group>"; };
+		9DA35EB41595268100F56951 /* sqratScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratScript.h; sourceTree = "<group>"; };
+		9DA35EB51595268100F56951 /* sqratTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratTable.h; sourceTree = "<group>"; };
+		9DA35EB61595268100F56951 /* sqratTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratTypes.h; sourceTree = "<group>"; };
+		9DA35EB71595268100F56951 /* sqratUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratUtil.h; sourceTree = "<group>"; };
+		9DA35EB81595268100F56951 /* sqratVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratVM.h; sourceTree = "<group>"; };
+		9DA35EB91595268100F56951 /* sqrat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqrat.h; sourceTree = "<group>"; };
+		9DA35EBA15952EB500F56951 /* sqmodule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sqmodule.h; sourceTree = "<group>"; };
+		9DA35EBB15952EB500F56951 /* sqratimport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sqratimport.h; sourceTree = "<group>"; };
 		9DA35EBD1595315D00F56951 /* COPYRIGHT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYRIGHT; sourceTree = "<group>"; };
 		9DA35EBF1595315D00F56951 /* sqstdaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqstdaux.h; sourceTree = "<group>"; };
 		9DA35EC01595315D00F56951 /* sqstdblob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqstdblob.h; sourceTree = "<group>"; };
@@ -419,6 +437,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9DA35EA81595268100F56951 /* sqrat */ = {
+			isa = PBXGroup;
+			children = (
+				9DA35EA91595268100F56951 /* sqrat */,
+				9DA35EB91595268100F56951 /* sqrat.h */,
+				9DA35EBA15952EB500F56951 /* sqmodule.h */,
+				9DA35EBB15952EB500F56951 /* sqratimport.h */,
+			);
+			name = sqrat;
+			path = libs/sqrat;
+			sourceTree = "<group>";
+		};
+		9DA35EA91595268100F56951 /* sqrat */ = {
+			isa = PBXGroup;
+			children = (
+				9DA35EAA1595268100F56951 /* sqratAllocator.h */,
+				9DA35EAB1595268100F56951 /* sqratArray.h */,
+				9DA35EAC1595268100F56951 /* sqratClass.h */,
+				9DA35EAD1595268100F56951 /* sqratClassType.h */,
+				9DA35EAE1595268100F56951 /* sqratConst.h */,
+				9DA35EAF1595268100F56951 /* sqratFunction.h */,
+				9DA35EB01595268100F56951 /* sqratGlobalMethods.h */,
+				9DA35EB11595268100F56951 /* sqratMemberMethods.h */,
+				9DA35EB21595268100F56951 /* sqratObject.h */,
+				9DA35EB31595268100F56951 /* sqratOverloadMethods.h */,
+				9DA35EB41595268100F56951 /* sqratScript.h */,
+				9DA35EB51595268100F56951 /* sqratTable.h */,
+				9DA35EB61595268100F56951 /* sqratTypes.h */,
+				9DA35EB71595268100F56951 /* sqratUtil.h */,
+				9DA35EB81595268100F56951 /* sqratVM.h */,
+			);
+			path = sqrat;
+			sourceTree = "<group>";
+		};
 		9DA35EBC1595315D00F56951 /* squirrel */ = {
 			isa = PBXGroup;
 			children = (
@@ -501,6 +553,7 @@
 			isa = PBXGroup;
 			children = (
 				9DA35EBC1595315D00F56951 /* squirrel */,
+				9DA35EA81595268100F56951 /* sqrat */,
 				F92D9E09139070820077ED19 /* emo */,
 				F92D9E471390708B0077ED19 /* libpng */,
 				F92D9D98139070770077ED19 /* Box2D */,
