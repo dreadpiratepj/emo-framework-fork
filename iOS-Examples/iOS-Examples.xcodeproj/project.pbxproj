@@ -15,6 +15,7 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		9DAC0D8115958CDB006FF1D5 /* MySqratBindings.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC0D8015958CDB006FF1D5 /* MySqratBindings.mm */; };
 		F908827613872BFD0065EC77 /* box2d_helloworld.nut in Resources */ = {isa = PBXBuildFile; fileRef = F908827513872BEA0065EC77 /* box2d_helloworld.nut */; };
 		F9102FDC13973AB300BC7404 /* http_access_example.nut in Resources */ = {isa = PBXBuildFile; fileRef = F9102FDB13973AA800BC7404 /* http_access_example.nut */; };
 		F917F96F1387AC15003F4B53 /* animation_example.nut in Resources */ = {isa = PBXBuildFile; fileRef = F917F96E1387AC0D003F4B53 /* animation_example.nut */; };
@@ -213,6 +214,26 @@
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iOS_Examples-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS_Examples-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9DAC0D7F15958CDB006FF1D5 /* MySqratBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySqratBindings.h; path = "../../Emo-iOS/Classes/MySqratBindings.h"; sourceTree = "<group>"; };
+		9DAC0D8015958CDB006FF1D5 /* MySqratBindings.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MySqratBindings.mm; path = "../../Emo-iOS/Classes/MySqratBindings.mm"; sourceTree = "<group>"; };
+		9DAC0D8315958D05006FF1D5 /* sqmodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqmodule.h; sourceTree = "<group>"; };
+		9DAC0D8515958D05006FF1D5 /* sqratAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratAllocator.h; sourceTree = "<group>"; };
+		9DAC0D8615958D05006FF1D5 /* sqratArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratArray.h; sourceTree = "<group>"; };
+		9DAC0D8715958D05006FF1D5 /* sqratClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratClass.h; sourceTree = "<group>"; };
+		9DAC0D8815958D05006FF1D5 /* sqratClassType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratClassType.h; sourceTree = "<group>"; };
+		9DAC0D8915958D05006FF1D5 /* sqratConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratConst.h; sourceTree = "<group>"; };
+		9DAC0D8A15958D05006FF1D5 /* sqratFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratFunction.h; sourceTree = "<group>"; };
+		9DAC0D8B15958D05006FF1D5 /* sqratGlobalMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratGlobalMethods.h; sourceTree = "<group>"; };
+		9DAC0D8C15958D05006FF1D5 /* sqratMemberMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratMemberMethods.h; sourceTree = "<group>"; };
+		9DAC0D8D15958D05006FF1D5 /* sqratObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratObject.h; sourceTree = "<group>"; };
+		9DAC0D8E15958D05006FF1D5 /* sqratOverloadMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratOverloadMethods.h; sourceTree = "<group>"; };
+		9DAC0D8F15958D05006FF1D5 /* sqratScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratScript.h; sourceTree = "<group>"; };
+		9DAC0D9015958D05006FF1D5 /* sqratTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratTable.h; sourceTree = "<group>"; };
+		9DAC0D9115958D05006FF1D5 /* sqratTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratTypes.h; sourceTree = "<group>"; };
+		9DAC0D9215958D05006FF1D5 /* sqratUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratUtil.h; sourceTree = "<group>"; };
+		9DAC0D9315958D05006FF1D5 /* sqratVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratVM.h; sourceTree = "<group>"; };
+		9DAC0D9415958D05006FF1D5 /* sqrat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqrat.h; sourceTree = "<group>"; };
+		9DAC0D9515958D05006FF1D5 /* sqratimport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratimport.h; sourceTree = "<group>"; };
 		F908827513872BEA0065EC77 /* box2d_helloworld.nut */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = box2d_helloworld.nut; path = Resources/box2d_helloworld.nut; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
 		F9102FDB13973AA800BC7404 /* http_access_example.nut */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = http_access_example.nut; path = Resources/http_access_example.nut; sourceTree = "<group>"; };
 		F917F96E1387AC0D003F4B53 /* animation_example.nut */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = animation_example.nut; path = Resources/animation_example.nut; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
@@ -515,6 +536,8 @@
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* iOS_ExamplesAppDelegate.h */,
 				1D3623250D0F684500981E51 /* iOS_ExamplesAppDelegate.m */,
+				9DAC0D7F15958CDB006FF1D5 /* MySqratBindings.h */,
+				9DAC0D8015958CDB006FF1D5 /* MySqratBindings.mm */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -627,6 +650,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9DAC0D8215958D05006FF1D5 /* sqrat */ = {
+			isa = PBXGroup;
+			children = (
+				9DAC0D8315958D05006FF1D5 /* sqmodule.h */,
+				9DAC0D8415958D05006FF1D5 /* sqrat */,
+				9DAC0D9415958D05006FF1D5 /* sqrat.h */,
+				9DAC0D9515958D05006FF1D5 /* sqratimport.h */,
+			);
+			name = sqrat;
+			path = "../Emo-iOS/libs/sqrat";
+			sourceTree = "<group>";
+		};
+		9DAC0D8415958D05006FF1D5 /* sqrat */ = {
+			isa = PBXGroup;
+			children = (
+				9DAC0D8515958D05006FF1D5 /* sqratAllocator.h */,
+				9DAC0D8615958D05006FF1D5 /* sqratArray.h */,
+				9DAC0D8715958D05006FF1D5 /* sqratClass.h */,
+				9DAC0D8815958D05006FF1D5 /* sqratClassType.h */,
+				9DAC0D8915958D05006FF1D5 /* sqratConst.h */,
+				9DAC0D8A15958D05006FF1D5 /* sqratFunction.h */,
+				9DAC0D8B15958D05006FF1D5 /* sqratGlobalMethods.h */,
+				9DAC0D8C15958D05006FF1D5 /* sqratMemberMethods.h */,
+				9DAC0D8D15958D05006FF1D5 /* sqratObject.h */,
+				9DAC0D8E15958D05006FF1D5 /* sqratOverloadMethods.h */,
+				9DAC0D8F15958D05006FF1D5 /* sqratScript.h */,
+				9DAC0D9015958D05006FF1D5 /* sqratTable.h */,
+				9DAC0D9115958D05006FF1D5 /* sqratTypes.h */,
+				9DAC0D9215958D05006FF1D5 /* sqratUtil.h */,
+				9DAC0D9315958D05006FF1D5 /* sqratVM.h */,
+			);
+			path = sqrat;
+			sourceTree = "<group>";
+		};
 		F921CC99136FFBAC00F058FF /* graphics */ = {
 			isa = PBXGroup;
 			children = (
@@ -679,6 +736,7 @@
 				F967E60113907136006D8F99 /* emo */,
 				F967E62B13907136006D8F99 /* libpng */,
 				F967E64013907136006D8F99 /* squirrel */,
+				9DAC0D8215958D05006FF1D5 /* sqrat */,
 			);
 			name = "emo Sources";
 			sourceTree = "<group>";
@@ -1219,6 +1277,7 @@
 				F92D530F145E248C002B97DF /* EmoSnapshotDrawable.m in Sources */,
 				F9F496FF1476165B005EAF37 /* EmoLiquidDrawable.m in Sources */,
 				F9F4970214762456005EAF37 /* EmoPointDrawable.m in Sources */,
+				9DAC0D8115958CDB006FF1D5 /* MySqratBindings.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1235,6 +1294,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iOS_Examples_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"../Emo-iOS/Classes",
+					"../Emo-iOS/libs",
+					"../Emo-iOS/libs/squirrel/include",
+					"../Emo-iOS/libs/libpng",
+					"../Emo-iOS/libs/emo",
+					"../Emo-iOS/libs/sqrat",
+				);
 				INFOPLIST_FILE = "iOS_Examples-Info.plist";
 				PRODUCT_NAME = EmoApp;
 			};
@@ -1248,6 +1315,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iOS_Examples_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"../Emo-iOS/Classes",
+					"../Emo-iOS/libs",
+					"../Emo-iOS/libs/squirrel/include",
+					"../Emo-iOS/libs/libpng",
+					"../Emo-iOS/libs/emo",
+					"../Emo-iOS/libs/sqrat",
+				);
 				INFOPLIST_FILE = "iOS_Examples-Info.plist";
 				PRODUCT_NAME = "iOS-Examples";
 				VALIDATE_PRODUCT = YES;
