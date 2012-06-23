@@ -38,5 +38,11 @@ class Main {
 }
 
 function emo::onLoad() {
+    /*
+    obj <- MyClass();
+    print(format("MyClass.bar = %d", obj.bar));
+    print(format("arr[3] = %d", arr[3]));
+    print(foo(1, 2.0, "3"));
+     */
     emo.Stage().load(Main());
 }

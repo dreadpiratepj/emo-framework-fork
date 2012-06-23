@@ -13,6 +13,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		9DA35EA71595263300F56951 /* MySqratBindings.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DA35EA61595263300F56951 /* MySqratBindings.mm */; };
 		9DA35EF21595315D00F56951 /* COPYRIGHT in Resources */ = {isa = PBXBuildFile; fileRef = 9DA35EBD1595315D00F56951 /* COPYRIGHT */; };
 		9DA35EF41595315D00F56951 /* sqstdaux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DA35EC81595315D00F56951 /* sqstdaux.cpp */; };
 		9DA35EF51595315D00F56951 /* sqstdblob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DA35EC91595315D00F56951 /* sqstdblob.cpp */; };
@@ -132,6 +133,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Emo_iOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emo_iOS_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Emo_iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Emo_iOS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9DA35EA51595263300F56951 /* MySqratBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySqratBindings.h; sourceTree = "<group>"; };
+		9DA35EA61595263300F56951 /* MySqratBindings.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MySqratBindings.mm; sourceTree = "<group>"; };
 		9DA35EAA1595268100F56951 /* sqratAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratAllocator.h; sourceTree = "<group>"; };
 		9DA35EAB1595268100F56951 /* sqratArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratArray.h; sourceTree = "<group>"; };
 		9DA35EAC1595268100F56951 /* sqratClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratClass.h; sourceTree = "<group>"; };
@@ -374,6 +377,8 @@
 			children = (
 				1D3623240D0F684500981E51 /* Emo_iOSAppDelegate.h */,
 				1D3623250D0F684500981E51 /* Emo_iOSAppDelegate.m */,
+				9DA35EA51595263300F56951 /* MySqratBindings.h */,
+				9DA35EA61595263300F56951 /* MySqratBindings.mm */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -935,6 +940,7 @@
 				F92D5303145E23A0002B97DF /* EmoLineDrawable.m in Sources */,
 				F931FE1D14772C41001125BB /* EmoLiquidDrawable.m in Sources */,
 				F931FE1E14772C41001125BB /* EmoPointDrawable.m in Sources */,
+				9DA35EA71595263300F56951 /* MySqratBindings.mm in Sources */,
 				9DA35EF41595315D00F56951 /* sqstdaux.cpp in Sources */,
 				9DA35EF51595315D00F56951 /* sqstdblob.cpp in Sources */,
 				9DA35EF61595315D00F56951 /* sqstdio.cpp in Sources */,

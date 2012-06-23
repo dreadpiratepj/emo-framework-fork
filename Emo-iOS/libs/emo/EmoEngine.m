@@ -40,6 +40,8 @@
 #import "EmoDrawable.h"
 #import "EmoPhysics.h"
 
+#import "MySqratBindings.h"
+
 NSString* char2ns(const char* str) {
 	return [NSString stringWithCString:(char*)str 
 							  encoding:NSUTF8StringEncoding];
@@ -83,7 +85,7 @@ NSString* data2ns(NSData* data) {
         enableSimpleLog = FALSE;
         enableSimpleLogWithLevel = FALSE;
         
-        sqvm = sq_open(SQUIRREL_VM_INITIAL_STACK_SIZE);
+        sqvm = createSqratVM();
     }
     return self;
 }
@@ -157,6 +159,8 @@ NSString* data2ns(NSData* data) {
 	
 	[self initScriptFunctions];
 
+    initSqratBindings();
+    
 	return TRUE;
 }
 
