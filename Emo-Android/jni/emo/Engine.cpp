@@ -30,6 +30,8 @@
 #include "VmFunc.h"
 #include "Physics.h"
 
+#include "MySqratBindings.h"
+
 #include <android/window.h>
 #include <jni.h>
 #include <GLES/glext.h>
@@ -72,7 +74,7 @@ namespace emo {
 
         this->useANR = false;
 
-        this->sqvm = sq_open(SQUIRREL_VM_INITIAL_STACK_SIZE);
+        this->sqvm = createSqratVM();
     }
 
     Engine::~Engine() {
@@ -201,6 +203,8 @@ namespace emo {
 
         // register activity's native methods
         this->javaGlue->registerJavaGlue();
+
+        initSqratBindings();
 
         this->loaded  = true;
     }
