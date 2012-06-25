@@ -152,7 +152,7 @@ NSString* data2ns(NSData* data) {
 	drawablesToDraw  = [NSArray alloc];
 	
     if (sqvm == nil) {
-        sqvm = sq_open(SQUIRREL_VM_INITIAL_STACK_SIZE);
+        sqvm = createSqratVM();
     }
 	
 	initSQVM(sqvm);

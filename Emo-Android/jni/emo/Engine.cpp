@@ -148,7 +148,7 @@ namespace emo {
         this->updateUptime();
 
         if (this->sqvm == NULL) {
-            this->sqvm = sq_open(SQUIRREL_VM_INITIAL_STACK_SIZE);
+            this->sqvm = createSqratVM();
         }
         this->lastError = EMO_NO_ERROR;
 
