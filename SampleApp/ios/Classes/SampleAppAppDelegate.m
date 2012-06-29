@@ -32,7 +32,8 @@
 #import "SampleAppAppDelegate.h"
 #import "EmoViewController.h"
 #import "EmoView.h"
-#import "NativeViewController.h"
+#import "EmoEngine_glue.h"
+#import "MyUIViewController.h"
 
 @implementation SampleAppAppDelegate
 
@@ -60,11 +61,11 @@
     return YES;
 }
 
-- (void)showNativeView
+- (void)showMyUIView
 {
-    UIViewController *vc = [[[NativeViewController alloc] init] autorelease];
+    NSLOGI(@"In ObjC showMyUIView");
+    MyUIViewController *vc = [[[MyUIViewController alloc] init] autorelease];
     [navController pushViewController:vc animated:YES];
-    NSLog(@"In ObjC showNativeView");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

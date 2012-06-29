@@ -43,7 +43,7 @@
 @property (nonatomic, retain) EmoViewController *viewController;
 @property (nonatomic, retain) UIWindow *window;
 
-- (void)showNativeView;
+- (void)showMyUIView;
 
 @end
 

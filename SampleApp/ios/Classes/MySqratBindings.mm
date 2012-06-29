@@ -40,12 +40,12 @@ extern "C" {
 	
 Sqrat::SqratVM *sqratVM;
 
-void showNativeView(void)
+void showMyUIView(void)
 {
+    sqratVM->doString("print(\"In C showMyUIView\");");
     SampleAppAppDelegate *appDelegate = 
         (SampleAppAppDelegate *)[UIApplication sharedApplication].delegate;
-    [appDelegate showNativeView];
-    sqratVM->doString("print(\"In C showNativeView\");");
+    [appDelegate showMyUIView];
 }
     
 std::string foo(int i, double d, const std::string& str)
@@ -70,7 +70,7 @@ HSQUIRRELVM createSqratVM(void) {
 void initSqratBindings(void)
 {
 
-    sqratVM->getRootTable().Func("showNativeView", &showNativeView);
+    sqratVM->getRootTable().Func("showMyUIView", &showMyUIView);
     
     sqratVM->getRootTable().Func("foo", &foo);
 

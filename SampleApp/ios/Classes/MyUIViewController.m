@@ -1,5 +1,5 @@
 //
-//  NativeViewController.m
+//  MyUIViewController.m
 //  SampleApp
 //
 //  Created by PJ Cabrera on 6/26/2012.
@@ -29,15 +29,15 @@
 // OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 // EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
-#import "NativeViewController.h"
+#import "MyUIViewController.h"
 
 #include "SampleAppAppDelegate.h"
 
-@interface NativeViewController ()
+@interface MyUIViewController ()
 
 @end
 
-@implementation NativeViewController
+@implementation MyUIViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -70,7 +70,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.navigationItem.title = @"Native View";
+    self.navigationItem.title = @"MyUIView";
 }
 
 - (void)viewDidUnload

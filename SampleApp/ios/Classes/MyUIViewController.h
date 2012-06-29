@@ -1,5 +1,5 @@
 //
-//  NativeViewController.h
+//  MyUIViewController.h
 //  SampleApp
 //
 //  Created by PJ Cabrera on 6/26/2012.
@@ -31,6 +31,6 @@
 //
 #import <UIKit/UIKit.h>
 
-@interface NativeViewController : UIViewController
+@interface MyUIViewController : UIViewController
 
 @end

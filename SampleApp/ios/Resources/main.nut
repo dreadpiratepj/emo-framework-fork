@@ -60,8 +60,8 @@ class Main {
         }
         
         // change the text
-        text1.setText("     TAP HERE TO");
-        text2.setText(" DISPLAY NATIVE VIEW");
+        text1.setText("TAP TO DISPLAY");
+        text2.setText(" NATIVE VIEW");
         
         local tX = (stage.getWindowWidth()  - text1.getScaledWidth())  / 2;
         text1.move(tX, text1.getScaledHeight()*15);
@@ -97,7 +97,7 @@ class Main {
      */
     function onMotionEvent(mevent) {
         if (mevent.getAction() == MOTION_EVENT_ACTION_DOWN) {
-            showNativeView();
+            showMyUIView();
         }
     }    
 }

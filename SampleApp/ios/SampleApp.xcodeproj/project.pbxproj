@@ -14,8 +14,8 @@
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
 		9D0E2BA2159AC60800F9A783 /* font_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E2BA1159AC60800F9A783 /* font_16x16.png */; };
-		9D0E2BAB159ADC3800F9A783 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E2BA9159ADC3800F9A783 /* NativeViewController.m */; };
-		9D0E2BAC159ADC3800F9A783 /* NativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E2BAA159ADC3800F9A783 /* NativeViewController.xib */; };
+		9D0E2BAB159ADC3800F9A783 /* MyUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E2BA9159ADC3800F9A783 /* MyUIViewController.m */; };
+		9D0E2BAC159ADC3800F9A783 /* MyUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E2BAA159ADC3800F9A783 /* MyUIViewController.xib */; };
 		9DA35EA71595263300F56951 /* MySqratBindings.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DA35EA61595263300F56951 /* MySqratBindings.mm */; };
 		9DA35EF21595315D00F56951 /* COPYRIGHT in Resources */ = {isa = PBXBuildFile; fileRef = 9DA35EBD1595315D00F56951 /* COPYRIGHT */; };
 		9DA35EF41595315D00F56951 /* sqstdaux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DA35EC81595315D00F56951 /* sqstdaux.cpp */; };
@@ -137,9 +137,9 @@
 		32CA4F630368D1EE00C91783 /* SampleApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleApp_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SampleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SampleApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9D0E2BA1159AC60800F9A783 /* font_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font_16x16.png; path = Resources/graphics/font_16x16.png; sourceTree = "<group>"; };
-		9D0E2BA8159ADC3800F9A783 /* NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeViewController.h; sourceTree = "<group>"; };
-		9D0E2BA9159ADC3800F9A783 /* NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
-		9D0E2BAA159ADC3800F9A783 /* NativeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeViewController.xib; sourceTree = "<group>"; };
+		9D0E2BA8159ADC3800F9A783 /* MyUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = MyUIViewController.h; sourceTree = "<group>"; };
+		9D0E2BA9159ADC3800F9A783 /* MyUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIViewController.m; sourceTree = "<group>"; };
+		9D0E2BAA159ADC3800F9A783 /* MyUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyUIViewController.xib; sourceTree = "<group>"; };
 		9DA35EA51595263300F56951 /* MySqratBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySqratBindings.h; sourceTree = "<group>"; };
 		9DA35EA61595263300F56951 /* MySqratBindings.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MySqratBindings.mm; sourceTree = "<group>"; };
 		9DA35EAA1595268100F56951 /* sqratAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqratAllocator.h; sourceTree = "<group>"; };
@@ -386,9 +386,9 @@
 				1D3623250D0F684500981E51 /* SampleAppAppDelegate.m */,
 				9DA35EA51595263300F56951 /* MySqratBindings.h */,
 				9DA35EA61595263300F56951 /* MySqratBindings.mm */,
-				9D0E2BA8159ADC3800F9A783 /* NativeViewController.h */,
-				9D0E2BA9159ADC3800F9A783 /* NativeViewController.m */,
-				9D0E2BAA159ADC3800F9A783 /* NativeViewController.xib */,
+				9D0E2BA8159ADC3800F9A783 /* MyUIViewController.h */,
+				9D0E2BA9159ADC3800F9A783 /* MyUIViewController.m */,
+				9D0E2BAA159ADC3800F9A783 /* MyUIViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -865,7 +865,7 @@
 				F98A7F791395B8BB008F984C /* Icon.png in Resources */,
 				9DA35EF21595315D00F56951 /* COPYRIGHT in Resources */,
 				9D0E2BA2159AC60800F9A783 /* font_16x16.png in Resources */,
-				9D0E2BAC159ADC3800F9A783 /* NativeViewController.xib in Resources */,
+				9D0E2BAC159ADC3800F9A783 /* MyUIViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -974,7 +974,7 @@
 				9DA35F071595315D00F56951 /* sqstate.cpp in Sources */,
 				9DA35F081595315D00F56951 /* sqtable.cpp in Sources */,
 				9DA35F0A1595315D00F56951 /* sqvm.cpp in Sources */,
-				9D0E2BAB159ADC3800F9A783 /* NativeViewController.m in Sources */,
+				9D0E2BAB159ADC3800F9A783 /* MyUIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
